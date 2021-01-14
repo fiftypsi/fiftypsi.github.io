@@ -13,7 +13,7 @@
   
       <div class="row section" id="splash">
         <div class="col-lg-8">
-          <h1>Hello, I'm Alan.  <br>I build things on the Internet.</h1>
+          <h1 class='fade_in'>Hello, I'm Alan.  <br>I build things on the Internet.</h1>
           <p>I help people and businesses build early versions of their tech products.  Sometimes I'm hired to design user interfaces, or develop websites and applications.</p>
           <p>I've been a fulltime freelancer since 2016 and am currently based in between Singapore and Bangkok, depending on the time of the year.</p>
         </div>
@@ -23,7 +23,7 @@
         </div>
       </div>
   
-      <div class="row section">
+      <div class="row section" id="skills">
         <div class="col-12">
           <h2>My Skills Set</h2>
           <p></p>
@@ -57,7 +57,7 @@
       </div>
 
 
-      <div class="row section">
+      <div class="row section" id="projects">
         <div class="col-12">
           <h2>Projects & Clients</h2>
           
@@ -68,8 +68,8 @@
             <div class="col-lg-9">
               <p><strong>Transwap Pte Ltd </strong></p>
               <p>My relationship with Transwap started in 2016 when they approached to build their first MVP (Minimum Viable Product).  Over the years, as the startup has grown and expanded its line of offerings, I have been involved in upgrading the core system powering their payments solution business as well as their other standalone products.</p>
-              <a href="https://www.transwap.com">https://www.transwap.com</a>
-              <p class="small">UI design, web application development (front & back end), systems mainenance, Laravel, Ruby on Rails, React</p>
+              <a href="https://www.transwap.com" target="_blank">https://www.transwap.com</a>
+              <p class="small">UI design, web application development (front & back end), systems maintenance, Laravel, Ruby on Rails, React</p>
             </div>
           </div>
 
@@ -80,7 +80,7 @@
             <div class="col-lg-9">
               <p><strong>Directhome Pte Ltd</strong></p>
               <p>I was referred to Directhome in 2015, who were looking to build their MVP from scratch.  The project started with an extensive phase of research on user needs and expectations, followed by the development of prototypes, and the eventual launch of the platform within an intense period of 4 months.</p>
-              <a href="https://www.directhome.com.sg">https://www.directhome.com.sg</a>
+              <a href="https://www.directhome.com.sg" target="_blank">https://www.directhome.com.sg</a>
               <p class="small">Project scoping, user stories, wireframes, UI design, web application development (Ruby on Rails), iOS and Android app development, systems maintenance</p>
             </div>
           </div>
@@ -162,6 +162,8 @@
       $('.carousel').carousel({
         interval: false
       })
+      $("#skills").hide();
+      element.scrollIntoView();
     </script>
   </body>
 </html>
