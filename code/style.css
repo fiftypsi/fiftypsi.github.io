@@ -1,0 +1,87 @@
+body, p{
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2{
+  font-family: 'Libre Baskerville', serif;
+}
+
+h1{
+  margin-bottom: 32px;
+}
+
+h2{
+  margin-bottom:24px;
+}
+
+strong{
+  font-weight: bold;
+}
+
+a:link, a:visited{
+  color:#e83e8c;
+}
+
+a:hover{
+  color:blue;
+  text-decoration: none;
+}
+
+
+.section{
+  border-bottom: 1px solid #000000;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#intro{
+  display: flex;
+}
+
+#profile{
+  width:100%;
+}
+
+#skills_container{
+  display: flex;
+}
+.skill{
+  width: 300px;
+}
+
+#projects a:link, #projects a:visited{
+  margin-bottom: 16px;
+  display: block;
+}
+
+#testimonials img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+#cta_button{
+  border:2px solid #000000;
+  display: block;
+  padding: 16px 32px 16px 32px;
+  width: 200px;
+  text-align: center;
+}
+
+
+
+/* xs */
+@media (max-width: 575px) {
+    
+}
+
+/* sm */
+@media (min-width: 576px) {
+
+}
+/* md */
+@media (min-width: 768px) {
+
+}
+/* lg */
+@media (min-width: 992px) {
+}
